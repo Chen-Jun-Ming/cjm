@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mrzx-controller" />
+        <module name="mrzx-vo" />
+        <module name="mrzx-utils" />
+        <module name="mrzx-common" />
+        <module name="mrzx-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mrzx-common" options="-parameters" />
+      <module name="mrzx-controller" options="-parameters" />
+      <module name="mrzx-root" options="-parameters" />
+      <module name="mrzx-service" options="-parameters" />
+      <module name="mrzx-utils" options="-parameters" />
+      <module name="mrzx-vo" options="-parameters" />
+    </option>
+  </component>
+</project>

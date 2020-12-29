@@ -1,0 +1,14 @@
+server:
+  port: 8081
+  tomcat:
+    uri-encoding: utf-8
+  servlet:
+    context-path: /mrzx
+spring:
+  resources:
+    add-mappings: true
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
